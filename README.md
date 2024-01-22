@@ -10,7 +10,8 @@ Private version has to remain private till the day of Engineer thesis defendence
 ![image](https://github.com/klimek00/carSeer-pub/assets/36035343/4d7cc414-e8db-43f0-918c-4b196b3a03aa)
 
 User may log in or register, gaining additional access to server's functionality, such adding own offers and adding to bookmarks (by default, Bookmarks are stored in Browser's localStorage). Upon pressing "Sign up or in", a modal is displayed. **Modal is hardly in WIP** and will allow to log in via Google and Apple services.
-![image](https://github.com/klimek00/carSeer-pub/assets/36035343/c40184d9-4552-411a-b6d7-7eb502f3de46)
+![image](https://github.com/klimek00/carSeer-pub/assets/36035343/6c8f210b-c5fb-447f-827c-ac49ddc3c58c)
+
 Input's are validated with common requirements (password >=8 characters, user cannot contain special characters) both in Client and Server, alerting user with specific requirements. 
 <p>Session is maintained in Cookie via token (JWT), expiring in 1 hour or 30 days.</p>
 
